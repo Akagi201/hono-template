@@ -1,11 +1,9 @@
-FROM oven/bun:1-distroless
+FROM oven/bun:1-slim
 
-COPY package.json ./
-COPY bun.lockb ./
-COPY src ./
+WORKDIR /app
+COPY . .
 
-RUN bun install --production
+RUN bun install
 
-USER bun
 EXPOSE 3000/tcp
-CMD ["bun", "run", "src/index.ts"]
+CMD ["bun", "prod"]

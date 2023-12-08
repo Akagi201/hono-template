@@ -2,6 +2,7 @@
   "name": "hono-template",
   "scripts": {
     "dev": "bun run --hot src/index.ts",
+    "prod": "bun run src/index.ts",
     "format": "rome format --write ."
   },
   "dependencies": {
