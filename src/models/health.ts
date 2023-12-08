@@ -1,3 +1,3 @@
 export interface HelloResp {
-  ok: boolean;
+	ok: boolean;
 }

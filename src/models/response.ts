@@ -1,11 +1,11 @@
 export interface SuccessResponse {
-  success: boolean;
-  data?: any;
-  timestamp?: number;
+	success: boolean;
+	data?: any;
+	timestamp?: number;
 }
 
 export interface FailureResponse {
-  success: boolean;
-  code: number;
-  message: string;
+	success: boolean;
+	code: number;
+	message: string;
 }
