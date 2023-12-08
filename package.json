@@ -1,0 +1,13 @@
+{
+  "name": "orderly-operator-ts",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "hono": "^3.11.3",
+    "pino": "^8.16.2"
+  },
+  "devDependencies": {
+    "bun-types": "^1.0.15"
+  }
+}
